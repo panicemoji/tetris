@@ -196,7 +196,7 @@ function rotate(piece,dir){
 }
 
 let dropCounter = 0;
-let dropInterval = 1000;
+let dropInterval = 600;
 let lt = 0;
 function update(time=0){
     let dt = time - lt;
